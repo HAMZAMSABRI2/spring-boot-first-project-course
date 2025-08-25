@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 @ConfigurationProperties("currency")
-@Component
+@Component // cette class c'est une class service
 public class CurrencyServiceConfiguration {
     public String url;
     public String username;

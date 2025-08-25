@@ -12,7 +12,7 @@ public class CurrencyController
 {
     public String res;
     @Autowired
-    private CurrencyServiceConfiguration currency;
+    private CurrencyServiceConfiguration currency; // Injection automatique
     @RequestMapping("/currenczy")
     public CurrencyServiceConfiguration getCurrency()
     {
