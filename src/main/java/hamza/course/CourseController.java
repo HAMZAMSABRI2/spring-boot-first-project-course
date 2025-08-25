@@ -15,7 +15,9 @@ public class CourseController {
     public List <Course> getCourse()
     {
         return Arrays.asList(
-                new Course(1,"kl","orokr")
+                new Course(1,"5ù*ùed","11"),
+                new Course(2,"*6","11"),
+                new Course(3,"5iyu","11")
         );
     }
 }
